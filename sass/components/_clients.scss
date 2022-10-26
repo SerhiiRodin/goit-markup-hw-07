@@ -37,20 +37,20 @@
   border-radius: 4px;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--color-blue);
+  }
 }
 
 .clients-icon {
   fill: #afb1b8;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients-link:hover,
-.clients-link:focus {
-  border: 1px solid var(--color-blue);
-}
-
-.clients-link:hover > .clients-icon,
-.clients-link:focus > .clients-icon {
-  fill: var(--color-blue);
+  .clients-link:hover > &,
+  .clients-link:focus > & {
+    fill: var(--color-blue);
+  }
 }
