@@ -1,0 +1,24 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-white);
+  color: var(--main-color-text);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
