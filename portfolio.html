@@ -14,37 +14,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/main.min.css">
-
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
     <!--Header-->
     <header class="header">
-        <div class="container header-navigation">
-            <nav class="navigation header-navigation">
-                <a class="logo link" href="./index.html">Web<span>Studio</span></a>
+        <div class="container header__container">
+            <nav class="navigation navigation__container">
+                <a class="logo header__logo link" href="./index.html">Web<span
+                        class="logo__span logo__span--dark">Studio</span></a>
 
-                <ul class="header-list list">
-                    <li class="list-item">
-                        <a class="header-item link" href="./index.html">Студія</a>
+                <ul class="main-menu list">
+                    <li class="main-menu__item">
+                        <a class="main-menu__link link" href="./index.html">Студія</a>
                     </li>
-                    <li class="list-item">
-                        <a class="header-item link current" href="./portfolio.html">Портфоліо</a>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link link main-menu__link--current" href="./portfolio.html">Портфоліо</a>
                     </li>
-                    <li class="list-item"><a class="header-item link" href="#">Контакти</a></li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link link" href="#">Контакти</a>
+                    </li>
                 </ul>
             </nav>
-            <ul class="header-adress list">
-                <li class="list-item">
-                    <a class="adress-item link" href="mailto:info@devstudio.com"><svg class="icon-contact" width="16"
-                            height="12">
+            <ul class="connect-menu list">
+                <li class="connect-menu__item">
+                    <a class="connect-menu__link link" href="mailto:info@devstudio.com"><svg class="connect-menu__icon"
+                            width="16" height="12">
                             <use href="./images/symbol-defs.svg#icon-mail"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li class="list-item">
-                    <a class="adress-item link" href="tel:+380961111111"><svg class="icon-contact" width="10"
-                            height="16">
+                <li class="connect-menu__item">
+                    <a class="connect-menu__link link" href="tel:+380961111111"><svg class="connect-menu__icon"
+                            width="10" height="16">
                             <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a>
                 </li>
@@ -268,62 +270,64 @@
         <div class="container">
             <div class="wraper-footer-content">
                 <div class="wraper-footer-list">
-                    <a href="./index.html" class="logo link footer">Web<span>Studio</span></a>
-                    <address class="footer-adress">
-                        <ul class="list">
+                    <a href="./index.html" class="logo footer__logo link">Web<span
+                            class="logo__span logo__span--light">Studio</span></a>
+                    <address class="adress">
+                        <ul class="adress-list list">
                             <li>
-                                <a class="footer-link link" href="https://goo.gl/maps/mQ2EMZRai4qMG1Mf6" target="_blank"
-                                    rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26
+                                <a class="adress-list__link link" href="https://goo.gl/maps/mQ2EMZRai4qMG1Mf6"
+                                    target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26
                                 </a>
                             </li>
                             <li>
-                                <a class="footer-link link adress-link"
+                                <a class="adress-list__link link adress-list__link--dark"
                                     href="mailto:info@devstudio.com">info@devstudio.com</a>
                             </li>
                             <li>
-                                <a class="footer-link link adress-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                                <a class="adress-list__link link adress-list__link--dark" href="tel:+380961111111">+38
+                                    096 111 11 11</a>
                             </li>
                         </ul>
                     </address>
                 </div>
 
-                <div class="wraper-footer-soc-list">
-                    <p class="footer-text">приєднуйтесь</p>
-                    <ul class="footer-list list">
-                        <li>
-                            <a href="" class="footer-soc-link"><svg class="footer-icon" width="20" height="20">
+                <div class="wraper-soc-list">
+                    <p class="wraper-soc-list__text">приєднуйтесь</p>
+                    <ul class="soc-list list">
+                        <li class="soc-label">
+                            <a href="" class="soc-label__link"><svg class="soc-label__icon" width="20" height="20">
                                     <use href="./images/symbol-defs.svg#icon-instagram"></use>
                                 </svg></a>
                         </li>
-                        <li>
-                            <a href="" class="footer-soc-link"><svg class="footer-icon" width="20" height="20">
+                        <li class="soc-label">
+                            <a href="" class="soc-label__link"><svg class="soc-label__icon" width="20" height="20">
                                     <use href="./images/symbol-defs.svg#icon-twitter"></use>
                                 </svg></a>
                         </li>
-                        <li>
-                            <a href="" class="footer-soc-link"><svg class="footer-icon" width="20" height="20">
+                        <li class="soc-label">
+                            <a href="" class="soc-label__link"><svg class="soc-label__icon" width="20" height="20">
                                     <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                 </svg></a>
                         </li>
-                        <li>
-                            <a href="" class="footer-soc-link"><svg class="footer-icon" width="20" height="20">
+                        <li class="soc-label">
+                            <a href="" class="soc-label__link"><svg class="soc-label__icon" width="20" height="20">
                                     <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                                 </svg></a>
                         </li>
                     </ul>
                 </div>
 
-                <form class="form-footer">
-                    <div class="form-fild-footer">
-                        <p class="form-fild-footer-text">Підпишіться на розсилку</p>
-                        <label class="form-fild-footer-label">
-                            <input class="form-fild-footer-input" type="email" name="email" placeholder="E-mail" />
+                <form class="form-subscribe">
+                    <div class="form-subscribe__form">
+                        <p class="form-subscribe__text">Підпишіться на розсилку</p>
+                        <label class="form-subscribe__label">
+                            <input class="form-subscribe__input" type="email" name="email" placeholder="E-mail" />
                         </label>
                     </div>
 
-                    <button type="submit" class="heroes-button subscribe">
+                    <button type="submit" class="button form-subscribe__button">
                         Підписатися
-                        <svg class="icon-submit" width="24" height="24">
+                        <svg class="button__icon-submit" width="24" height="24">
                             <use href="./images/symbol-defs.svg#icon-send"></use>
                         </svg>
                     </button>

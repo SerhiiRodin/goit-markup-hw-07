@@ -15,7 +15,7 @@
   background-color: var(--color-background-heroes);
 }
 
-.heroes-titel {
+.heroes__titel {
   max-width: 696px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -29,7 +29,7 @@
   color: var(--color-white);
 }
 
-.heroes-button {
+.button {
   display: inline-block;
   background-color: var(--color-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

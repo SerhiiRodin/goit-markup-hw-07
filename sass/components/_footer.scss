@@ -10,22 +10,19 @@
   align-items: baseline;
 }
 
-.logo.footer {
-  display: inline-block;
-  padding: 0;
+.footer__logo {
   margin-bottom: 20px;
-  margin-right: 0;
 }
 
-.logo.footer > span {
+.logo__span--light {
   color: var(--color-white);
 }
 
-.footer-adress {
+.adress {
   min-width: 231px;
 }
 
-.footer-link {
+.adress-list__link {
   display: inline-block;
   margin-bottom: 9px;
 
@@ -42,15 +39,15 @@
   }
 }
 
-.adress-link {
+.adress-list__link--dark {
   color: var(--color-backgraund-link);
 }
 
-.wraper-footer-soc-list {
+.wraper-soc-list {
   margin-left: 70px;
 }
 
-.footer-text {
+.wraper-soc-list__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -61,11 +58,11 @@
   color: #ffffff;
 }
 
-.footer-list {
+.soc-list {
   display: flex;
   gap: 10px;
 }
-.footer-soc-link {
+.soc-label__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -82,26 +79,26 @@
   }
 }
 
-.footer-icon {
+.soc-label__icon {
   fill: var(--color-white);
 }
 
 /* --------FORMA----------------- */
-.form-footer {
+.form-subscribe {
   display: flex;
   align-items: flex-end;
   padding: 0;
   margin-left: 93px;
 }
 
-.form-fild-footer {
+.form-subscribe__form {
   display: flex;
   flex-direction: column;
   margin-right: 12px;
   padding: 0;
 }
 
-.form-fild-footer-text {
+.form-subscribe__text {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -112,7 +109,7 @@
   color: #ffffff;
 }
 
-.form-fild-footer-input {
+.form-subscribe__input {
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -129,14 +126,14 @@
   border-radius: 4px;
 }
 
-.heroes-button.subscribe {
+.form-subscribe__button {
   min-width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.icon-submit {
+.button__icon-submit {
   margin-left: 10px;
   fill: #ffffff;
 }
