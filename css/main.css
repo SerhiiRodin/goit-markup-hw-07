@@ -111,7 +111,6 @@ body {
 .header-item.current {
   color: var(--color-blue);
 }
-
 .header-item.current::after {
   content: "";
   display: block;
@@ -312,7 +311,6 @@ body {
   letter-spacing: 0.01em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form-fild:focus-within .form-fild-input {
   border-color: rgb(33, 150, 243);
   outline: transparent;
@@ -325,7 +323,6 @@ body {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form-fild:focus-within .modal-form-icon {
   fill: rgb(33, 150, 243);
 }
@@ -348,7 +345,6 @@ body {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .comment:focus-within .form-fild-comment {
   border-color: rgb(33, 150, 243);
   outline: transparent;
@@ -407,13 +403,11 @@ body {
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .policy-checkbox:checked + .policy-icon {
   background-color: #2196f3;
   border-color: #2196f3;
   fill: #ffffff;
 }
-
 .policy-checkbox:focus + .policy-icon {
   border-color: #2196f3;
 }
